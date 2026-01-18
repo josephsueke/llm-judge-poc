@@ -67,9 +67,9 @@ Scroll to the bottom of the notebook. You will see a small UI consisting of:
 • A button labeled "Run batch judge"
 
 In the Folder field, enter the path to one of the provided transcript folders,
-for example:
+in the GitHub, for example:
 
-  ./Conversation Logs 16
+  ./Conversation Logs 2
   ./Conversation Logs 21
 
 Then click the "Run batch judge" button.
@@ -80,7 +80,7 @@ Outputs
 When the run completes, the notebook will automatically:
 
 • Create a new output folder next to the input folder, named like:
-    Judged - Conversation Logs 16 - 01
+    Judged - Conversation Logs 2 - 01
     (or -02, -03, etc. on subsequent runs)
 
 • Write one judged JSON file per input transcript, prefixed with "Judged -"
